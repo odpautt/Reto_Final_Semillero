@@ -64,11 +64,6 @@ public class AdvantageOnlineShoppingDetailsActions extends AdvantageOnlineShoppi
     }
 
     public void validarOpcionesDePago(AdvantageonlineshoppingBuyOnlineModels buyOnlineModels){
-        System.out.println(buyOnlineModels.getOpcionPago1().toLowerCase());
-        System.out.println(buyOnlineModels.getOpcionPago2().toLowerCase());
-
-        System.out.println(getMetodoPagoSafepay().getAttribute("alt"));
-        System.out.println(getMetodoPagoMasterCredit().getAttribute("alt"));
 
         int metodospagoexitentes=0;
         if(buyOnlineModels.getOpcionPago1().toLowerCase()
@@ -149,7 +144,7 @@ public class AdvantageOnlineShoppingDetailsActions extends AdvantageOnlineShoppi
         listaCamposOrdenPago.add(buyOnlineModels.getResumenCompra());
         listaCamposOrdenPago.add(buyOnlineModels.getNumeroOrden());
         listaCamposOrdenPago.add(buyOnlineModels.getNumeroGuia());
-        System.out.println(getDireccionDeEntrega().getText());
+
 
         int campoPresente=0;
         if(getDireccionDeEntrega().getText().contains(buyOnlineModels.getDireccionDeEntrega())){

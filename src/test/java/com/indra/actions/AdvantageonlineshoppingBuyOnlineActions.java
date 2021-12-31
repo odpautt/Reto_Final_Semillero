@@ -52,7 +52,7 @@ public class AdvantageonlineshoppingBuyOnlineActions extends AdvantageOnlineShop
     }
 
     public void realizarBusquedaDeArticulo(){
-        //getBtnBuscar().waitUntilPresent();
+
         hacerClicBtnBuscar();
         ingresarArticuloBuscado("Chromebook");
         hacerClicBtnCerrarBusqueda();
