@@ -13,5 +13,5 @@ import org.junit.runner.RunWith;
         //,tags = "@caso"
 )
 
-public class AdvantageonlineshoppingBuyOnlineRunners {
+public class AdvantageOnlineshoppingBuyOnlineRunners {
 }

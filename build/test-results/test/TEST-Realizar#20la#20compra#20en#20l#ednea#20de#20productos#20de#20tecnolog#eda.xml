@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Realizar la compra en línea de productos de tecnología" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-12-30T21:52:57" hostname="22LAP5CD1195R94" time="109.709">
+<testsuite name="Realizar la compra en línea de productos de tecnología" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-01-24T15:14:03" hostname="22LAP5CD1195R94" time="131.724">
   <properties/>
-  <testcase name="La canasta de compras deberia mostrar los detalles del producto a comprar" classname="Realizar la compra en línea de productos de tecnología" time="12.093"/>
-  <testcase name="La canasta de compras deberia mostrar la opcion Shipping Details" classname="Realizar la compra en línea de productos de tecnología" time="12.638"/>
-  <testcase name="El usario deberia poder editar la Informacion de Shopping Details" classname="Realizar la compra en línea de productos de tecnología" time="13.419"/>
-  <testcase name="el usuario deberia poder visulizar dos opciones de pago" classname="Realizar la compra en línea de productos de tecnología" time="13.403"/>
-  <testcase name="el usuari deberia poder ver la opcion de editar tarjeta" classname="Realizar la compra en línea de productos de tecnología" time="14.232"/>
-  <testcase name="el usuario deberia poder ver los datos de la tarjeta anterior" classname="Realizar la compra en línea de productos de tecnología" time="15.705"/>
-  <testcase name="el usuario deberia poder ver la opcion Pay Now" classname="Realizar la compra en línea de productos de tecnología" time="13.775"/>
-  <testcase name="el usuario deberia poder ver la orden de pago" classname="Realizar la compra en línea de productos de tecnología" time="14.41"/>
-  <system-out><![CDATA[16:52:57.847 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-16:52:57.847 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, incognito: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-16:53:03.680 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
-16:53:03.681 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
-16:53:03.967 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\44c59101cb98d047137888ae67db8570649a0d24e6e468e668df2ef7cc37b7fd.png
-16:53:03.968 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8543857188798651098
-16:53:03.968 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\44c59101cb98d047137888ae67db8570649a0d24e6e468e668df2ef7cc37b7fd.png
-16:53:06.644 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\30611731865ec805bbcea56e8ea5142d2045981c911562ca1405e3f3c9ebbdf2.png
-16:53:06.645 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-502550100628898284
-16:53:06.645 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\30611731865ec805bbcea56e8ea5142d2045981c911562ca1405e3f3c9ebbdf2.png
-16:53:08.283 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\b3eea5df49915b5360026bd4a4eef455f8333b1bff9857c6adb1dc40d929ad5a.png
-16:53:09.368 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+  <testcase name="La canasta de compras deberia mostrar los detalles del producto a comprar" classname="Realizar la compra en línea de productos de tecnología" time="12.543"/>
+  <testcase name="La canasta de compras deberia mostrar la opcion Shipping Details" classname="Realizar la compra en línea de productos de tecnología" time="16.268"/>
+  <testcase name="El usario deberia poder editar la Informacion de Shopping Details" classname="Realizar la compra en línea de productos de tecnología" time="16.24"/>
+  <testcase name="el usuario deberia poder visulizar dos opciones de pago" classname="Realizar la compra en línea de productos de tecnología" time="15.691"/>
+  <testcase name="el usuari deberia poder ver la opcion de editar tarjeta" classname="Realizar la compra en línea de productos de tecnología" time="17.712"/>
+  <testcase name="el usuario deberia poder ver los datos de la tarjeta anterior" classname="Realizar la compra en línea de productos de tecnología" time="18.928"/>
+  <testcase name="el usuario deberia poder ver la opcion Pay Now" classname="Realizar la compra en línea de productos de tecnología" time="16.218"/>
+  <testcase name="el usuario deberia poder ver la orden de pago" classname="Realizar la compra en línea de productos de tecnología" time="18.066"/>
+  <system-out><![CDATA[10:14:03.866 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+10:14:03.866 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, incognito: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+10:14:09.853 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+10:14:09.855 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+10:14:10.369 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\3d9e5159b1612d037becd0e1de281b82d39730c1ef4f8fb2e8f3fec8810219cd.png
+10:14:10.370 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1364040907506563628
+10:14:10.370 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\3d9e5159b1612d037becd0e1de281b82d39730c1ef4f8fb2e8f3fec8810219cd.png
+10:14:12.744 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\4ea4c259ed81597b88b00b4aba4e3118aabecb71417cd6d886446d98fd914c5b.png
+10:14:12.745 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5397236496010756624
+10:14:12.745 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\4ea4c259ed81597b88b00b4aba4e3118aabecb71417cd6d886446d98fd914c5b.png
+10:14:14.591 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\f36c8a615932fe0e83718edc8f898657ffa4794dddbea3aad20e988a9d360e43.png
+10:14:14.591 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2388229355612564688
+10:14:14.592 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\f36c8a615932fe0e83718edc8f898657ffa4794dddbea3aad20e988a9d360e43.png
+10:14:15.841 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -30,19 +32,19 @@
 
 TEST PASSED: La canasta de compras deberia mostrar los detalles del producto a comprar
 ----------------------------------------------------------------------------?[0m
-16:53:09.575 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-16:53:09.575 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, incognito: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-16:53:15.075 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\58e4b1d85e6f3cbb00c55bf7ab662914a6fdf841d34323969cbd9fe8400819d8.png
-16:53:15.075 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-6353208077392611221
-16:53:15.075 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\58e4b1d85e6f3cbb00c55bf7ab662914a6fdf841d34323969cbd9fe8400819d8.png
-16:53:17.735 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\913348c0c5a9ede899b1d242011c6ab8e432cb7df01bee1b8ce5f178f7e3ff46.png
-16:53:17.736 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7492020660529664237
-16:53:17.736 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\913348c0c5a9ede899b1d242011c6ab8e432cb7df01bee1b8ce5f178f7e3ff46.png
-16:53:19.521 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\9b6b72e835dcb47f8d524cb6c3f1019f5c658eee64b713601e7d4cfe2188f393.png
-16:53:20.917 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\ec11284a0e1f1f1434ed1e8f4e20059c8dc2b2e9fdff6fe5f58ffb01e00a23c0.png
-16:53:20.918 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5963335461492408796
-16:53:20.918 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\ec11284a0e1f1f1434ed1e8f4e20059c8dc2b2e9fdff6fe5f58ffb01e00a23c0.png
-16:53:22.012 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+10:14:16.074 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+10:14:16.074 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, incognito: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+10:14:21.851 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\282ce5275660b13c3e969db9b269b449185f84bf02d94b3c9a1b59322a13fc46.png
+10:14:21.853 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7932776127745792695
+10:14:21.853 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\282ce5275660b13c3e969db9b269b449185f84bf02d94b3c9a1b59322a13fc46.png
+10:14:24.877 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\e2f53252eb2aaa91a26d34a3178077050f273e00398216725116a5cc11718da6.png
+10:14:24.879 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8435540264918352257
+10:14:24.879 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\e2f53252eb2aaa91a26d34a3178077050f273e00398216725116a5cc11718da6.png
+10:14:27.260 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\c194f8025d88359bf9a7806c95c0a1c5043a007e89402c5df7fa3b6bc7513e3a.png
+10:14:30.453 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\a9432ff8fe8759f683029df45d022255b182180363e9d3aaab44938c79dad71e.png
+10:14:30.455 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1292739303931674928
+10:14:30.456 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\a9432ff8fe8759f683029df45d022255b182180363e9d3aaab44938c79dad71e.png
+10:14:32.119 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -52,20 +54,20 @@ TEST PASSED: La canasta de compras deberia mostrar los detalles del producto a c
 
 TEST PASSED: La canasta de compras deberia mostrar la opcion Shipping Details
 ----------------------------------------------------------------------------?[0m
-16:53:22.204 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-16:53:22.204 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, incognito: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-16:53:27.712 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\1087c2971dac4b055280e674a62f17215be9dee873b559e76b82ff5e96cdfb7b.png
-16:53:30.462 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\cd2ae6002c98b5b6cefa85fa5fea5e18ad049a64391e211c57f2f15886b40cd8.png
-16:53:30.462 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4578742090142983213
-16:53:30.462 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\cd2ae6002c98b5b6cefa85fa5fea5e18ad049a64391e211c57f2f15886b40cd8.png
-16:53:32.294 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\7cf6ac223d6cfd1895b9481f6b5750cb548992b23decb8df62f2566638ddca1c.png
-16:53:32.295 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1957920564360638640
-16:53:32.295 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\7cf6ac223d6cfd1895b9481f6b5750cb548992b23decb8df62f2566638ddca1c.png
-16:53:33.931 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\ce5abd81c513fc31ca1f5c4541001c6524ea2da7db5192d6a96d3bdfa52193f5.png
-16:53:33.932 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4252643592302693422
-16:53:33.932 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\ce5abd81c513fc31ca1f5c4541001c6524ea2da7db5192d6a96d3bdfa52193f5.png
-16:53:34.296 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\ce5abd81c513fc31ca1f5c4541001c6524ea2da7db5192d6a96d3bdfa52193f5.png
-16:53:35.438 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+10:14:32.335 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+10:14:32.335 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, incognito: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+10:14:37.910 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\36a54f49770d83565001552bbe2140da2fa6b52ac17a1f3d417660e27baaaa07.png
+10:14:40.665 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\edf54f3df817337eb68992f93d0a08018d75a0ccc04fce2c80c657e1a0e25b21.png
+10:14:40.667 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5751961675438756515
+10:14:40.667 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\edf54f3df817337eb68992f93d0a08018d75a0ccc04fce2c80c657e1a0e25b21.png
+10:14:43.051 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\f654c29104a4cbb4ba14e08e2a6da97efd4bc1c1a3c5fb228762bd1e0dd2606d.png
+10:14:46.162 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\f8c81f9b2e38b07ae7d8a290ba3ea3079f63c0f384cc385ddceefcd67fc8385f.png
+10:14:46.164 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2481886905342491412
+10:14:46.165 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\f8c81f9b2e38b07ae7d8a290ba3ea3079f63c0f384cc385ddceefcd67fc8385f.png
+10:14:46.702 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\467452a0571dbcc0661fb7ca3ee43db0041e7cc5296e64d788a55e8505b9e860.png
+10:14:46.704 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-655498330186294686
+10:14:46.704 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\467452a0571dbcc0661fb7ca3ee43db0041e7cc5296e64d788a55e8505b9e860.png
+10:14:48.367 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -75,21 +77,21 @@ TEST PASSED: La canasta de compras deberia mostrar la opcion Shipping Details
 
 TEST PASSED: El usario deberia poder editar la Informacion de Shopping Details
 ----------------------------------------------------------------------------?[0m
-16:53:35.630 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-16:53:35.630 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, incognito: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-16:53:41.391 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\9ecffaa28d9c1484f4b82d8b7c800f25ea4c8f8d5a8f6d950e7359d060197b3c.png
-16:53:41.392 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1703660091355258901
-16:53:41.392 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\9ecffaa28d9c1484f4b82d8b7c800f25ea4c8f8d5a8f6d950e7359d060197b3c.png
-16:53:43.990 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\c35582a3a0513950e8f6092e27198fe6da3ed0681c110f1b9ee1dc16e42059b7.png
-16:53:43.991 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-6005496708569645440
-16:53:43.991 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\c35582a3a0513950e8f6092e27198fe6da3ed0681c110f1b9ee1dc16e42059b7.png
-16:53:47.152 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\48fafddbfc8cbc1d729cfe76b70079da0c2695ba2ac8f34c3bb8553b01891fe7.png
-safepay
-master credit
-Safepay
-Master credit
-16:53:47.558 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\48fafddbfc8cbc1d729cfe76b70079da0c2695ba2ac8f34c3bb8553b01891fe7.png
-16:53:48.844 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+10:14:48.567 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+10:14:48.567 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, incognito: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+10:14:54.244 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\63cf1b6d7271a820593945bd596f75053e8c4784fa3eb20f3e5feb8080a65c13.png
+10:14:54.245 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7415834524596896790
+10:14:54.245 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\63cf1b6d7271a820593945bd596f75053e8c4784fa3eb20f3e5feb8080a65c13.png
+10:14:56.886 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\096aa56a2c359902d655722118f4df6891ca11f7297f4ccf266945df65346bf1.png
+10:14:56.889 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2916187141640396702
+10:14:56.890 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\096aa56a2c359902d655722118f4df6891ca11f7297f4ccf266945df65346bf1.png
+10:15:02.368 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\3684f87edcf8216c19a9a6f93a3dcf4932b2f2cd6fdc6a0cc555f56ff058ad20.png
+10:15:02.369 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8325976628473766953
+10:15:02.369 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\3684f87edcf8216c19a9a6f93a3dcf4932b2f2cd6fdc6a0cc555f56ff058ad20.png
+10:15:02.781 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\aa39ea566b6e827c14746783325d08840c60bf7bed42925497809168620a4fa8.png
+10:15:02.783 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5557734066002005998
+10:15:02.784 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\aa39ea566b6e827c14746783325d08840c60bf7bed42925497809168620a4fa8.png
+10:15:04.064 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -99,17 +101,19 @@ Master credit
 
 TEST PASSED: el usuario deberia poder visulizar dos opciones de pago
 ----------------------------------------------------------------------------?[0m
-16:53:49.067 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-16:53:49.068 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, incognito: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-16:53:55.153 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\9bea0e28e6773c0735c3b484361e5e96164b4a1c616d47330c9b76173966ad91.png
-16:53:55.154 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3484668047260875212
-16:53:55.155 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\9bea0e28e6773c0735c3b484361e5e96164b4a1c616d47330c9b76173966ad91.png
-16:53:57.829 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\f298c161cf262cfee7ce89e91260423f5da7cc9c86aabbd5156193bd64c816b1.png
-16:53:57.830 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3356348454094415478
-16:53:57.830 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\f298c161cf262cfee7ce89e91260423f5da7cc9c86aabbd5156193bd64c816b1.png
-16:54:01.377 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\fc5733e6e7fd2774ffeeee24f5c157244d6cc6c381e2d484fbd156e20f97115a.png
-16:54:01.645 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\fc5733e6e7fd2774ffeeee24f5c157244d6cc6c381e2d484fbd156e20f97115a.png
-16:54:03.080 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+10:15:04.297 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+10:15:04.297 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, incognito: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+10:15:09.853 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\5647795c73dbad72f996b6691c4f2c574bd708fd61b0fa3e66d2e8a9aa32eed7.png
+10:15:09.854 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7538334814847579176
+10:15:09.854 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\5647795c73dbad72f996b6691c4f2c574bd708fd61b0fa3e66d2e8a9aa32eed7.png
+10:15:13.219 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\9d44a5874e4a7110cb46aabdb6004062d2b29795b27cb2769ed3ff5843bcf220.png
+10:15:13.221 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3533390354871491716
+10:15:13.221 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\9d44a5874e4a7110cb46aabdb6004062d2b29795b27cb2769ed3ff5843bcf220.png
+10:15:20.128 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\e4a9cec7404e828ee3fa29b535bdf373e7c57ee800e6e458cedb6f48dde5ed0b.png
+10:15:20.130 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4364684212270282775
+10:15:20.130 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\e4a9cec7404e828ee3fa29b535bdf373e7c57ee800e6e458cedb6f48dde5ed0b.png
+10:15:20.444 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\e4a9cec7404e828ee3fa29b535bdf373e7c57ee800e6e458cedb6f48dde5ed0b.png
+10:15:21.783 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -119,18 +123,22 @@ TEST PASSED: el usuario deberia poder visulizar dos opciones de pago
 
 TEST PASSED: el usuari deberia poder ver la opcion de editar tarjeta
 ----------------------------------------------------------------------------?[0m
-16:54:03.346 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-16:54:03.347 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, incognito: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-16:54:10.202 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\b3b7109403d0e7977f36481801f61cbe36b679b18a878440f9110dc1449aab69.png
-16:54:10.203 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8222371991014510132
-16:54:10.203 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\b3b7109403d0e7977f36481801f61cbe36b679b18a878440f9110dc1449aab69.png
-16:54:12.955 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\b0c2590359497a943a7ecdc47f1a7db4c6759141ea7627e801a59cf4cb304150.png
-16:54:12.956 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1829515147794412701
-16:54:12.956 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\b0c2590359497a943a7ecdc47f1a7db4c6759141ea7627e801a59cf4cb304150.png
-16:54:16.535 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\9073dc20ce04de28ac7b6e60750f7faab9cab295599d91d5fe9b164b2d54560f.png
-16:54:16.931 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\31c1db55d780457e9a9bd39c4c1778b12292a73adbb4a5b1159c1b227035b197.png
-16:54:17.481 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\31c1db55d780457e9a9bd39c4c1778b12292a73adbb4a5b1159c1b227035b197.png
-16:54:18.792 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+10:15:22.215 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+10:15:22.216 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, incognito: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+10:15:29.385 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\b1a909cbe1ccee13ff842b6a428de43949ce241612b88884b0fe305aff02eaab.png
+10:15:29.386 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7182945301054139224
+10:15:29.386 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\b1a909cbe1ccee13ff842b6a428de43949ce241612b88884b0fe305aff02eaab.png
+10:15:32.218 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\f1eb5d8c51cb6279fd79ee4a32d9725c4aeeb8ccdef4629a8c3b8387c69404af.png
+10:15:32.219 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5729290174599433444
+10:15:32.219 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\f1eb5d8c51cb6279fd79ee4a32d9725c4aeeb8ccdef4629a8c3b8387c69404af.png
+10:15:38.327 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\360a9b3d8bdc0cd3c4b966ef39afc4b332f5712a67a51f21b3c7b4805fe5d144.png
+10:15:38.329 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8965586056027089866
+10:15:38.329 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\360a9b3d8bdc0cd3c4b966ef39afc4b332f5712a67a51f21b3c7b4805fe5d144.png
+10:15:38.728 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\f1d4c8f5b3a3563519479717a57f387c7d35f1bfdb90c37caf754406f8185e61.png
+10:15:38.729 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2710114436828077037
+10:15:38.729 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\f1d4c8f5b3a3563519479717a57f387c7d35f1bfdb90c37caf754406f8185e61.png
+10:15:39.450 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\f1d4c8f5b3a3563519479717a57f387c7d35f1bfdb90c37caf754406f8185e61.png
+10:15:40.720 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -140,15 +148,19 @@ TEST PASSED: el usuari deberia poder ver la opcion de editar tarjeta
 
 TEST PASSED: el usuario deberia poder ver los datos de la tarjeta anterior
 ----------------------------------------------------------------------------?[0m
-16:54:19.015 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-16:54:19.015 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, incognito: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-16:54:24.592 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\bdb6741641b61b249b63b91a3c0f9146434f39972afa969f2d6e89d9a1d2172f.png
-16:54:27.357 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\274c5f80b1b8039d27b6ae7a5afc00d908db9764fa936593c491b2f8e31456e7.png
-16:54:27.358 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5780238243941041768
-16:54:27.358 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\274c5f80b1b8039d27b6ae7a5afc00d908db9764fa936593c491b2f8e31456e7.png
-16:54:30.770 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\9dba147d40177dc5bf1f2a41dab70cb9d9dacb6c4a4601a31f7fd6378084a59b.png
-16:54:31.009 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\9dba147d40177dc5bf1f2a41dab70cb9d9dacb6c4a4601a31f7fd6378084a59b.png
-16:54:32.570 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+10:15:40.967 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+10:15:40.967 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, incognito: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+10:15:46.775 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\09d6a792305c4e10f463365e1efafcb9a129d1e1eae86a4122f05e7e45663345.png
+10:15:46.776 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2747703501349591886
+10:15:46.777 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\09d6a792305c4e10f463365e1efafcb9a129d1e1eae86a4122f05e7e45663345.png
+10:15:49.405 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\b36d6748da78c3f84e5922f5b1e725279361f5e21e02d19cd8da423eeb08e06b.png
+10:15:49.408 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8083498760109425612
+10:15:49.408 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\b36d6748da78c3f84e5922f5b1e725279361f5e21e02d19cd8da423eeb08e06b.png
+10:15:55.372 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\ddb24da80cc54da8e8fc33082f8593a0813e135a875348efb3b64ed02f4ed419.png
+10:15:55.373 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7969430486483497071
+10:15:55.373 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\ddb24da80cc54da8e8fc33082f8593a0813e135a875348efb3b64ed02f4ed419.png
+10:15:55.663 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\ddb24da80cc54da8e8fc33082f8593a0813e135a875348efb3b64ed02f4ed419.png
+10:15:56.948 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -158,21 +170,24 @@ TEST PASSED: el usuario deberia poder ver los datos de la tarjeta anterior
 
 TEST PASSED: el usuario deberia poder ver la opcion Pay Now
 ----------------------------------------------------------------------------?[0m
-16:54:32.833 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-16:54:32.833 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, incognito: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-16:54:38.447 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\b3b7109403d0e7977f36481801f61cbe36b679b18a878440f9110dc1449aab69.png
-16:54:41.173 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\43864025ef6f1dc443d1b54df7e737ec7b86185c001399de2f2c80eb05a8f04e.png
-16:54:41.174 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7849398097989474285
-16:54:41.174 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\43864025ef6f1dc443d1b54df7e737ec7b86185c001399de2f2c80eb05a8f04e.png
-16:54:44.603 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\1d1cd4cb25ccfdaf1f24b33a5d86f291c49d314834b1bb066cb83034a82d3718.png
-16:54:44.958 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\407a8f7519584e33a6e7daa61e1da28f637a6d3dd05f9238f69644ff4f384c2d.png
-16:54:44.959 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8117170122240420355
-16:54:44.959 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\407a8f7519584e33a6e7daa61e1da28f637a6d3dd05f9238f69644ff4f384c2d.png
-Shipping to
-16:54:45.764 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\769d53b5fc409cea148bdc0bd799e6c0d1664e20618ddf5ce8afbcd0af56941f.png
-16:54:45.765 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-9161901692309638858
-16:54:45.765 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\769d53b5fc409cea148bdc0bd799e6c0d1664e20618ddf5ce8afbcd0af56941f.png
-16:54:46.985 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+10:15:57.219 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+10:15:57.219 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, incognito: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+10:16:02.831 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\ca7a5cfea98af3fbec772d8ff4d2f15c380cb6ece68ed6d4666fbe0443f3f165.png
+10:16:02.832 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4536135538558048682
+10:16:02.832 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\ca7a5cfea98af3fbec772d8ff4d2f15c380cb6ece68ed6d4666fbe0443f3f165.png
+10:16:05.565 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\b2d1dc69cfdccded5ceaf222c8d8506529423170ffdc6951f61d4240eb93c1a0.png
+10:16:05.566 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-6324527603130047008
+10:16:05.566 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\b2d1dc69cfdccded5ceaf222c8d8506529423170ffdc6951f61d4240eb93c1a0.png
+10:16:11.583 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\188b43f603853277aaba4feeb24cdc3cdef4c7fbb1b2294295012e9e618fe1d8.png
+10:16:11.586 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8820476898497602980
+10:16:11.586 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\188b43f603853277aaba4feeb24cdc3cdef4c7fbb1b2294295012e9e618fe1d8.png
+10:16:12.054 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\026a9843b1068d6b348e6e812053c62ad65b992417447fab8caf110cb1a24b5a.png
+10:16:12.055 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3018576923229202339
+10:16:12.056 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\026a9843b1068d6b348e6e812053c62ad65b992417447fab8caf110cb1a24b5a.png
+10:16:13.365 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\2248fb19c242f064c08c27e748dfa409266ae1cfda8573df3f7e0027d1ae642a.png
+10:16:13.366 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-6845272472578304398
+10:16:13.366 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\Reto_Final_AdvantageOnlineShopping_Automatizacion\target\site\serenity\2248fb19c242f064c08c27e748dfa409266ae1cfda8573df3f7e0027d1ae642a.png
+10:16:15.022 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -183,69 +198,77 @@ Shipping to
 TEST PASSED: el usuario deberia poder ver la orden de pago
 ----------------------------------------------------------------------------?[0m
 ]]></system-out>
-  <system-err><![CDATA[dic 30, 2021 4:52:57 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[ene 24, 2022 10:14:03 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 20998
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 4029
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-dic 30, 2021 4:52:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1643037246.020][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
+ene 24, 2022 10:14:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
-dic 30, 2021 4:53:09 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+ene 24, 2022 10:14:15 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 44139
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 38576
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-dic 30, 2021 4:53:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1643037257.656][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
+ene 24, 2022 10:14:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
-dic 30, 2021 4:53:22 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+ene 24, 2022 10:14:32 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 35978
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 13688
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-dic 30, 2021 4:53:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1643037273.976][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
+ene 24, 2022 10:14:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
-dic 30, 2021 4:53:35 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+ene 24, 2022 10:14:48 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 46993
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 22492
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-dic 30, 2021 4:53:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1643037290.159][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
+ene 24, 2022 10:14:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
-dic 30, 2021 4:53:48 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+ene 24, 2022 10:15:04 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 37185
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 36542
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-dic 30, 2021 4:53:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1643037305.826][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
+ene 24, 2022 10:15:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
-dic 30, 2021 4:54:03 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+ene 24, 2022 10:15:21 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 2601
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 18798
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-dic 30, 2021 4:54:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1643037324.691][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
+ene 24, 2022 10:15:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
-dic 30, 2021 4:54:18 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+ene 24, 2022 10:15:40 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 14860
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 18526
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-dic 30, 2021 4:54:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1643037342.814][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
+ene 24, 2022 10:15:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
-dic 30, 2021 4:54:32 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+ene 24, 2022 10:15:56 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 8448
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 23209
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-dic 30, 2021 4:54:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1643037358.777][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
+ene 24, 2022 10:15:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

@@ -13,9 +13,11 @@ public class AdvantageOnlineShoppingFollowActions extends AdvantageOnlineShoppin
     public AdvantageOnlineShoppingFollowActions(WebDriver driver) {
         super(driver);
     }
+
     public void esperarCargaDeRedesSociales(){
         getSeccionRedesSociales().waitUntilPresent();
     }
+
     public void validarCantidadRedesSociales(AdvantageOnlineShoppingFollowModels followModelsList){
         List<String> listaRedesSociales = new ArrayList<>();
         listaRedesSociales.add(followModelsList.getRedsocial1());

@@ -1,7 +1,7 @@
 package com.indra.steps_definitions;
 
 import com.indra.actions.AdvantageOnlineShoppingDetailsActions;
-import com.indra.actions.AdvantageonlineshoppingBuyOnlineActions;
+import com.indra.actions.AdvantageOnlineshoppingBuyOnlineActions;
 import com.indra.models.AdvantageonlineshoppingBuyOnlineModels;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -11,10 +11,10 @@ import org.openqa.selenium.WebDriver;
 
 import java.util.List;
 
-public class AdvantageonlineshoppingBuyOnlineSteps {
+public class AdvantageOnlineshoppingBuyOnlineSteps {
     @Managed
     WebDriver driver;
-    AdvantageonlineshoppingBuyOnlineActions buyOnlineActions = new AdvantageonlineshoppingBuyOnlineActions(driver);
+    AdvantageOnlineshoppingBuyOnlineActions buyOnlineActions = new AdvantageOnlineshoppingBuyOnlineActions(driver);
     AdvantageOnlineShoppingDetailsActions shoppingDetailsActions = new AdvantageOnlineShoppingDetailsActions(driver);
     @Given("^estoy logueado en el portal demo$")
     public void estoyLogueadoEnElPortalDemo() {
@@ -57,7 +57,7 @@ public class AdvantageonlineshoppingBuyOnlineSteps {
         shoppingDetailsActions.validarShippingDetails(onlineModelsList.get(0));
     }
 
-    /******************* caso 3*/
+
 
     @Given("^que el usuario esta logeado en el portal$")
     public void queElUsuarioEstaLogeadoEnElPortal() {
@@ -83,7 +83,7 @@ public class AdvantageonlineshoppingBuyOnlineSteps {
     public void elUsuarioDeberiaPoderEditarLaInformacion() {
         shoppingDetailsActions.validaQueSeaEditableLaInformacion();
     }
-    /***************** caso 4 ********************/
+
     @Given("^que se logueo en el portal$")
     public void queSeLogueoEnElPortal() {
         estoyLogueadoEnElPortalDemo();
@@ -107,7 +107,7 @@ public class AdvantageonlineshoppingBuyOnlineSteps {
         shoppingDetailsActions.validarOpcionesDePago(buyOnlineModels.get(0));
     }
 
-    /****************** caso 5 ************************/
+
 
     @Given("^que se logueo el usuario en el portal$")
     public void queSeLogueoElUsuarioEnElPortal() {
@@ -131,7 +131,7 @@ public class AdvantageonlineshoppingBuyOnlineSteps {
         shoppingDetailsActions.validarOpcionEditarTarjetaCredito();
     }
 
-    /**************** caso 6******************/
+
 
     @When("^hace click en el link de editar tarjeta$")
     public void haceClickEnElLinkDeEditarTarjeta() {
@@ -145,7 +145,7 @@ public class AdvantageonlineshoppingBuyOnlineSteps {
 
     }
 
-    /****************** caso 7**************************/
+
 
     @Then("^deberia poder visualizar el boton de Pay Now$")
     public void deberiaPoderVisualizarElBotonDePayNow() {
@@ -153,7 +153,7 @@ public class AdvantageonlineshoppingBuyOnlineSteps {
         shoppingDetailsActions.validaBotonPaynowEstaPresente();
     }
 
-    /******************** caso 8****************************/
+
 
     @When("^hace click en el boton Pay Now$")
     public void haceClickEnElBotonPayNow() {

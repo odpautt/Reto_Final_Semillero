@@ -1,18 +1,19 @@
 package com.indra.actions;
 import com.indra.models.AdvantageOnlineShoppingModels;
+import com.indra.pages.AdvantageOnlineshoppingPage;
 import net.serenitybdd.core.pages.WebElementFacade;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;
 import org.openqa.selenium.WebDriver;
-import com.indra.pages.AdvantageonlineshoppingPage;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 
-public class AdvantageonlineshoppingActions extends AdvantageonlineshoppingPage {
+public class AdvantageOnlineshoppingActions extends AdvantageOnlineshoppingPage {
 
-    public AdvantageonlineshoppingActions(WebDriver driver) {
+    public AdvantageOnlineshoppingActions(WebDriver driver) {
         super(driver);
     }
 

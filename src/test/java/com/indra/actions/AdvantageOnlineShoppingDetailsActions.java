@@ -78,10 +78,6 @@ public class AdvantageOnlineShoppingDetailsActions extends AdvantageOnlineShoppi
                 ,metodospagoexitentes,Matchers.is(2));
     }
 
-    public void seleccionarMetodoPagoSafePay(){
-        getMetodoPagoSafepay().click();
-    }
-
     public void seleccionarMetodoPagoMasterCredit(){
         getMetodoPagoMasterCredit().click();
 
@@ -170,6 +166,10 @@ public class AdvantageOnlineShoppingDetailsActions extends AdvantageOnlineShoppi
          MatcherAssert.assertThat("los campos estan presentes ybson iguales a los del requerimiento",
                  campoPresente,Matchers.is(listaCamposOrdenPago.size()));
 
+    }
+
+    public void seleccionarMetodoPagoSafePay(){
+        getMetodoPagoSafepay().click();
     }
 
 }

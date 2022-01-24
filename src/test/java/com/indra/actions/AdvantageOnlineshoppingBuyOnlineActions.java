@@ -1,6 +1,5 @@
 package com.indra.actions;
 
-import com.indra.models.AdvantageonlineshoppingBuyOnlineModels;
 import com.indra.pages.AdvantageOnlineShoppingBuyOnlinePage;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;
@@ -10,9 +9,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
-public class AdvantageonlineshoppingBuyOnlineActions extends AdvantageOnlineShoppingBuyOnlinePage {
+public class AdvantageOnlineshoppingBuyOnlineActions extends AdvantageOnlineShoppingBuyOnlinePage {
 
-    public AdvantageonlineshoppingBuyOnlineActions(WebDriver driver) {
+    public AdvantageOnlineshoppingBuyOnlineActions(WebDriver driver) {
         super(driver);
     }
 
@@ -54,7 +53,7 @@ public class AdvantageonlineshoppingBuyOnlineActions extends AdvantageOnlineShop
     public void realizarBusquedaDeArticulo(){
 
         hacerClicBtnBuscar();
-        ingresarArticuloBuscado("Chromebook");
+        ingresarArticuloBuscado("hp");
         hacerClicBtnCerrarBusqueda();
     }
 

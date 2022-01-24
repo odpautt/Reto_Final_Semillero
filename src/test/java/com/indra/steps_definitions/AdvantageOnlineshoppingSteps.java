@@ -1,6 +1,6 @@
 package com.indra.steps_definitions;
 
-import com.indra.actions.AdvantageonlineshoppingActions;
+import com.indra.actions.AdvantageOnlineshoppingActions;
 
 import com.indra.models.AdvantageOnlineShoppingModels;
 import cucumber.api.java.en.Given;
@@ -11,11 +11,11 @@ import org.openqa.selenium.WebDriver;
 
 import java.util.List;
 
-public class AdvantageonlineshoppingSteps {
+public class AdvantageOnlineshoppingSteps {
     @Managed
     WebDriver driver;
 
-    AdvantageonlineshoppingActions advantageonlineshoppingActions = new AdvantageonlineshoppingActions(driver);
+    AdvantageOnlineshoppingActions advantageonlineshoppingActions = new AdvantageOnlineshoppingActions(driver);
 
     @Given("^que el usuario ingresa a la pagina de inicio$")
     public void queElUsuarioIngresaALaPaginaDeInicio() {
@@ -35,7 +35,6 @@ public class AdvantageonlineshoppingSteps {
 
 
     }
-/** caso de prueba #2*/
 
     @Given("^que el usuario esta en la pagina de inicio$")
     public void queElUsuarioEstaEnLaPaginaDeInicio() {
@@ -53,14 +52,11 @@ public class AdvantageonlineshoppingSteps {
 
 
     }
-/** caso de prueba #3*/
-
 
     @Given("^que el usuario esta en la pagina de inicio del portal$")
     public void queElUsuarioEstaEnLaPaginaDeInicioDelPortal() {
         advantageonlineshoppingActions.open();
     }
-
 
     @When("^carga el contenido de la pagina$")
     public void cargaElContenidoDeLaPagina() {

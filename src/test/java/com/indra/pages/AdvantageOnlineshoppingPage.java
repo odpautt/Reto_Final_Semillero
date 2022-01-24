@@ -11,8 +11,8 @@ import java.util.List;
 
 
 @DefaultUrl("https://advantageonlineshopping.com/#/")
-public class AdvantageonlineshoppingPage extends PageObject {
-    public AdvantageonlineshoppingPage(WebDriver driver) {
+public class AdvantageOnlineshoppingPage extends PageObject {
+    public AdvantageOnlineshoppingPage(WebDriver driver) {
         super(driver);
     }
 
